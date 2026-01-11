@@ -13,6 +13,7 @@ document.querySelector("#push").onclick = function
          <span/>
          <button>
         Delete icon
+        Delete icon
          </button>
          </div>
 
