@@ -10,13 +10,20 @@ document.querySelector("#push").onclick = function
          <div class= "task">
          <span id="taskname">
          ${document.querySelector("#newtask input").value}
-         <span/>
-         <button>
-        Delete icon
-        Delete icon
+         </span>
+         <button class="delete">
+         <i class="fa-solid fa-trash"></i>
          </button>
          </div>
 
-        `
+        `;
+
+        let current_task = document.querySelectorAll(".delete");
+
+        for (let i=0 ; i< current_task.length; i++){
+            current_task[i].onclick = function (){
+                this.parentNode.remove();
+            }
+        }
     }
 }
