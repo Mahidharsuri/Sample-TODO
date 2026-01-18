@@ -23,6 +23,7 @@ document.querySelector("#push").onclick = function
         for (let i=0 ; i< current_task.length; i++){
             current_task[i].onclick = function (){
                 this.parentNode.remove();
+                this.parentNode.remove();
             }
         }
     }
