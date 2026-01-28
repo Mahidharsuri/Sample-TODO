@@ -13,6 +13,7 @@ document.querySelector("#push").onclick = function
          </span>
          <button class="delete">
          <i class="fa-solid fa-trash"></i>
+         <i class="fa-solid fa-trash"></i>
          </button>
          </div>
 
