@@ -1,6 +1,6 @@
 document.querySelector("#push").onclick = function 
 (){
-    if (document.querySelector('#newtask input').value.length == 0) {
+    if (document.querySelector('#newtask input').value.length == 0){
         
         alert("Please enter a task")
     }
@@ -16,7 +16,7 @@ document.querySelector("#push").onclick = function
          <i class="fa-solid fa-trash"></i>
          </button>
          </div>
-
+        
         `;
 
         let current_task = document.querySelectorAll(".delete");
