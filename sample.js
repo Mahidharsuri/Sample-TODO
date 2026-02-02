@@ -16,13 +16,13 @@ document.querySelector("#push").onclick = function
          <i class="fa-solid fa-trash"></i>
          </button>
          </div>
-        
-        `;
+        `
 
         let current_task = document.querySelectorAll(".delete");
 
         for (let i=0 ; i< current_task.length; i++){
             current_task[i].onclick = function (){
+                this.parentNode.remove();
                 this.parentNode.remove();
                 this.parentNode.remove();
             }
